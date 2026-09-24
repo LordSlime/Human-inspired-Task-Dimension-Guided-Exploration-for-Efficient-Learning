@@ -1,0 +1,37 @@
+{
+  "datasets": {
+    "MovieLens": {
+      "default_dir": "./results_movielens/observed_only_results_20260921_160522/npy",
+      "alg_dirs": {
+        "LowD_HieRec_LinearUCB": "./results_movielens/observed_only_results_20260921_160522/npy",
+        "LowD_HieRec_NeuralUCB": "./results_movielens/observed_only_results_20260921_160522/npy",
+        "LowD_HieRec_NeuralTS": "./results_movielens/observed_only_results_20260921_160522/npy",
+        "LowD_HieRec_LinearUCB_NoFD": "./results_movielens/observed_only_results_20260921_160522/npy",
+        "LowD_HieRec_NeuralUCB_NoFD": "./results_movielens/observed_only_results_20260921_160522/npy",
+        "LowD_HieRec_NeuralTS_NoFD": "./results_movielens/observed_only_results_20260921_160522/npy",
+        "ItemCluster_LinearUCB": "./results_movielens/observed_only_results_20260921_160522/npy",
+        "ItemCluster_NeuralUCB": "./results_movielens/observed_only_results_20260921_160522/npy",
+        "ItemCluster_NeuralTS": "./results_movielens/observed_only_results_20260921_160522/npy",
+        "LowD_HieRec_LinearUCB_4L": "./results_movielens/observed_only_results_20260921_160522/npy",
+        "LowD_HieRec_NeuralUCB_4L": "./results_movielens/observed_only_results_20260921_160522/npy",
+        "LowD_HieRec_NeuralTS_4L": "./results_movielens/observed_only_results_20260921_160522/npy",
+        "H2N_Bandit": "./results_movielens/observed_only_results_20260921_160522/npy",
+        "CoFineUCB": "./results_movielens/observed_only_results_20260921_160522/npy"
+      }
+    },
+    "LastFM": {
+      "default_dir": "./results_lastfm/observed_only_results_20260921_212817/npy",
+      "alg_dirs": {
+        "H2N_Bandit": "./results_lastfm/observed_only_results_20260921_212817/npy",
+        "CoFineUCB": "./results_lastfm/observed_only_results_20260921_212817/npy"
+      }
+    },
+    "Amazon": {
+      "default_dir": "./results_amazon/observed_only_results_20260921_212827/npy",
+      "alg_dirs": {
+        "H2N_Bandit": "./results_amazon/observed_only_results_20260921_212827/npy",
+        "CoFineUCB": "./results_amazon/observed_only_results_20260921_212827/npy"
+      }
+    }
+  }
+}

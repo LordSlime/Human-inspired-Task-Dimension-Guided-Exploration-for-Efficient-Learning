@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+datasets/
+wandb/
+sweep_checkpoints/
+results_*/observed_only_results_20*/plots/
+

@@ -1,0 +1,13 @@
+{
+  "reference_method": "Hierarchical",
+  "datasets": {
+    "MovieLens": {
+      "methods": {
+        "Hierarchical": "./results_movielens/observed_only_results_20260921_160522/npy",
+        "KMeans": "./results_movielens/kmeans_results_20260724_192552/npy",
+        "Spectral": "./results_movielens/spectral_results_20260725_014553/npy",
+        "GMM": "./results_movielens/gmm_results_20260724_204806/npy"
+      }
+    }
+  }
+}
